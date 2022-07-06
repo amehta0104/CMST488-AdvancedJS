@@ -3,6 +3,7 @@ $(function () {
     $("#add-classes").click(function () {
         $('.selector-examples li:first').addClass('first');
         // Add remaining selectors here
+        $('.selector-examples li:odd').addClass('odd');
     });
 
     /* Change Text */
