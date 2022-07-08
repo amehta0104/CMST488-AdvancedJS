@@ -52,9 +52,10 @@ var name;
 
 function checkInput(input){
   console.log(input)
-
+  var arr = []
   if(input.length <= 3 ){
     console.log(input.length)
+    searchString = input 
 return true
   }
 
@@ -62,7 +63,7 @@ return true
 
 
     if(input.match(', ') || input.match(',')){
-      var arr = []
+      
       var count = 0
       var x = input.split(',').map(element => element.trim())
         console.log(x)
