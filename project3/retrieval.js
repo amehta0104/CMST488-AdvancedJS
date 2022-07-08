@@ -1,15 +1,19 @@
+
+
 $(document).ready(function () {
 
   $('#retrieve-resources').click(function () {
     var displayResources = $('#display-resources') // set this to the display-resources ID in index.html
     var iso2code =$('#country').val();// this variable should capture text input from the user
+console.log(checkInput(iso2code))
+   if(  checkInput(iso2code)=== true){
 var name;
     displayResources.text('Loading data from JSON source...');
     /* AJAX Call to RESTful Service */
     $.ajax({
       type: "GET",// Specify "GET" or "POST"
-      url: "https://restcountries.com/v3.1/alpha?codes="+iso2code, // URL of the service
-      data: {country:name},
+      url: "https://restcountries.com/v3.1/alpha?codes="+searchString, // URL of the service
+      data: {},
      // Use the format { parameterName: variable },
       success: function(result)
       {
@@ -38,5 +42,60 @@ var name;
         $("table").addClass("table");
       }
     });
+  }
+
+  else{
+    alert (' error : country code cannot exceed 3 characters')
+  }
   });
 });
+
+function checkInput(input){
+  console.log(input)
+
+  if(input.length <= 3 ){
+    console.log(input.length)
+return true
+  }
+
+  if(input.length > 3){
+
+
+    if(input.match(', ') || input.match(',')){
+      var arr = []
+      var count = 0
+      var x = input.split(',').map(element => element.trim())
+        console.log(x)
+      for ( [key, value] of Object.entries(x)){
+      
+       
+        if(value.length <= 3 ){
+  console.log(value)
+
+  arr.push(value)
+
+ 
+  
+  
+        }
+
+        if(value.length > 3){
+         // alert('country code can only have a maximum of 3 letters');
+         return false
+        }
+        
+
+       
+   
+    }
+    console.log(arr)
+    searchString = arr.toString()
+    return true
+  }
+
+return false
+
+  }
+
+
+}
