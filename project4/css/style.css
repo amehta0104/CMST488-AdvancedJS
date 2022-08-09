@@ -28,6 +28,15 @@
     box-shadow: rgba(0, 0, 0, 0.438) 2px 2px 5px;
   }
 
+  #post-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(550px,1fr));
+    gap: 10px;
+    
+    box-shadow: rgba(0, 0, 0, 0.438) 2px 2px 5px;
+  }
+
+
 .wrapper{
     margin: 0 auto;
     width: 70vw;
