@@ -34,7 +34,7 @@ $('#post-container').on("click", idy, function(){
 $.ajax({
   url:"js/projects.json",
   method: 'GET',
-  data: {"ID":`${{i:val.id}}`},
+  data: {"ID":`${result[i].id}`},
   success: function(post){
     console.log(post[i].post_title)
 post_output = 
