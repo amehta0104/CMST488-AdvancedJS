@@ -94,9 +94,11 @@ $('#back').on('click', () => {
     function () {
       $(this).css( 'scale','0.85');
       $(this).css('border', '35px solid var(--gradient1)');
+      $(this).css( 'height','860px');
     }, 
     function () {
       $(this).css('scale','1');
       $(this).css('border', '0px solid var(--gradient1)');
+      $(this).css( 'height','500px');
     }
   )
