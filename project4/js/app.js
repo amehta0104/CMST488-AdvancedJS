@@ -90,3 +90,11 @@ $('#back').on('click', () => {
 
 
 
+  $('img').hover(		
+    function () {
+      $(this).css('opacity','.2');
+    }, 
+    function () {
+      $(this).css('opacity','1');
+    }
+  )

@@ -1,9 +1,7 @@
 // JavaScript Document
 const gallery = document.getElementById('gallery');
 const popup = document.getElementById('popup2');
-const selectedImage = document.getElementById('selectedImage');
-const caption = document.getElementById('selectedCaption');
-const captions = ['Sunset in Portgual', 'Playing on the Swings', 'Dab it out', 'Cliffs in Athens?', 'Boating in Portugal']
+
 
 const imageIndexes = [ 2, 3, 4, 5, 6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22];
 const selectedIndex = null;
