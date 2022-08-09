@@ -38,7 +38,7 @@ $.ajax({
   success: function(post){
     console.log(post[i].post_title)
 post_output = 
-' <div class="container text-light"><p class="text-light text-center"> '+ post[i].post_excerpt.replaceAll("(?i)<td[^>]*>", " ").replaceAll("\\s+", " ").trim() + '</p></div> <div class="container text-light text-center"> <h2 class="display-2">' + post[i].post_title + ' </h2> </div> <div class="container text-light"> <p class="text-light"> ' + post[i].post_content + '</p></div> <div id="social_icons_list" class="article-author text-center "><p class="text-light">Created by: Sam</p><i class="fa-3x  fa-brands fa-twitter"></i><i  class="fa-3x  fa-brands fa-linkedin"></i><i  class="fa-3x  fa-brands fa-facebook"></i></div>'
+'<div class="container text-light"><p class="text-light text-center">'+ post[i].post_excerpt.replaceAll("(?i)<td[^>]*>", " ").replaceAll("\\s+", " ").trim() + '</p></div><div class="container text-light text-center"><h2 class="display-2">' + post[i].post_title + '</h2></div><div class="container text-light"> <p class="text-light">' + post[i].post_content + '</p></div> <div id="social_icons_list" class="article-author text-center "><p class="text-light">Created by:Sam</p><i class="fa-3x fa-brands fa-twitter"></i><i class="fa-3x fa-brands fa-linkedin"></i><i class="fa-3x fa-brands fa-facebook"></i></div>'
 
 
 
