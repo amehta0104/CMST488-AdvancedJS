@@ -25,7 +25,7 @@ var listNum = list+i;
 var idy = "#"+listNum;
 //<a href=post.php?id=' + val.id + '>
 
-output =  '  <div id=' + listNum + ' class="home-post container p-3">  <h1>' + val.post_title + ' </h1> <p>' + val.post_content.substring(1,300) +' </p>  </div> '
+output =  '  <div id=' + listNum + ' class="home-post container p-5">  <h1>' + val.post_title + ' </h1> <p>' + val.post_content.substring(1,300) +' </p>  </div> '
 //console.log(output)
 $('#post-container').append(output)
 

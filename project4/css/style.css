@@ -1,7 +1,7 @@
 :root{
     --main-bg-white: #fff;
     --text-main:#333;
-    --post-bg: rgb(255, 255, 255);
+    --post-bg: rgb(209, 209, 209);
 }
 
 .home-post{
@@ -11,6 +11,9 @@
    border-color: rgba(90, 154, 228, 0.479);
    border-width: 2px;
    border-style: solid;
+   padding: 1em;
+   
+
 
 }
 
@@ -21,7 +24,7 @@
 }
 .wrapper{
     margin: 0 auto;
-    width: 90vw;
+    width: 70vw;
     justify-content: center;
     position: relative;
 }
