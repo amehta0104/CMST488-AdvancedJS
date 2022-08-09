@@ -25,6 +25,7 @@
     gap: 10px;
     height: 512px;
     overflow: scroll;
+    box-shadow: rgba(0, 0, 0, 0.438) 2px 2px 5px;
   }
 
 .wrapper{
