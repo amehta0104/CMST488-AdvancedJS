@@ -34,7 +34,7 @@ $('#post-container').on("click", idy, function(){
 $.ajax({
   url:"js/projects.json",
   method: 'GET',
-  data: {"ID":val.id},
+  data: {ID:val.id},
   success: function(post){
     console.log(post[i].post_title)
 post_output = 
@@ -48,7 +48,12 @@ post_output =
 
 
     if ( $( "#popup" ).is( ":hidden" ) ) {
+
+      //i think i figured out to use async?? this just popped in my head and it works 
+      //flawlessy!!! I am so happy
       $( "#popup" ).slideDown( "slow" , () => $(' #back ').show("slow"));
+      //
+      //
       } else {
       $( "#popup" ).slideUp();
       } }
@@ -103,7 +108,7 @@ $(' #back ').hide("slow")
     }
   )
 
-  $('.fa-').hover(		
+  $('.fa-3x').hover(		
     function () {
       $(this).css( 'scale','0.95');
       $(this).css('border', '5px solid var(--gradient1)');
