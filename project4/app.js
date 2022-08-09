@@ -9,7 +9,7 @@ $(popup).hide()
 
 $.ajax({
     dataType: "JSON",
-    url: '/projects.json',
+    url: 'projects.json',
     data: {},
     success: function(result){
 
@@ -32,7 +32,7 @@ $('#post-container').append(output)
 $('#post-container').on("click", idy, function(){
 
 $.ajax({
-  url:'/projects.json',
+  url:'projects.json',
   method: 'GET',
   data: {ID:val.id},
   success: function(post){
