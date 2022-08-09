@@ -92,8 +92,8 @@ $('#back').on('click', () => {
 
   $('img').hover(		
     function () {
-      $(this).css( 'scale','0.7');
-      $(this).css('border', '15px solid var(--gradient1)');
+      $(this).css( 'scale','0.85');
+      $(this).css('border', '35px solid var(--gradient1)');
     }, 
     function () {
       $(this).css('scale','1');

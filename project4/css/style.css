@@ -2,8 +2,8 @@
     --main-bg-white: #fff;
     --text-main:#333;
     --post-bg: rgb(209, 209, 209);
-    --gradient1:rgba(40, 127, 241, 0.479);
-    --gradient2: rgba(218, 40, 241, 0.479);
+    --gradient1:rgb(40, 127, 241);
+    --gradient2: rgb(218, 40, 241);
 }
 
 .home-post{
@@ -95,7 +95,7 @@ img{
   opacity: 1;
   object-fit:cover;
   width: 100%;
-  transition: all 1s ease-in-out;
+  transition: all 1.5s ease-in-out;
 
 
 }
