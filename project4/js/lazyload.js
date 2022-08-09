@@ -26,7 +26,7 @@ const lazyLoad = (target)=>{
               
 
             
-              img.classList.add("show");
+           //   img.classList.add("show");
               observer.disconnect();
           }
       })
