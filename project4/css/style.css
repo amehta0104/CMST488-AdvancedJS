@@ -139,7 +139,7 @@ input, textarea {
 	grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
 	grid-gap: 10px;
 	
-
+  box-shadow: rgba(0, 0, 0, 0.438) 2px 2px 5px;
    
 }
 
