@@ -28,11 +28,11 @@
     box-shadow: rgba(0, 0, 0, 0.438) 2px 2px 5px;
   }
 
-  #post-container{
+  .post-container2{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(550px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(550px,1fr)) !important;
     gap: 10px;
-    
+    height: auto !important;
     box-shadow: rgba(0, 0, 0, 0.438) 2px 2px 5px;
   }
 
