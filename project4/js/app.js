@@ -6,7 +6,7 @@
 
 $(document).ready(function () {
 $(popup).hide()
-
+$('i').css('color','white')
 $.ajax({
     dataType: "JSON",
     url: 'js/projects.json',
