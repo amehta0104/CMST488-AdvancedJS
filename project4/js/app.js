@@ -66,7 +66,7 @@ post_output =
 $('#back').on('click', () => {
 
 
-
+$(' #back ').hide("slow")
   $(popup).slideUp("slow")
   
 })
