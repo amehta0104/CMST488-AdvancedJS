@@ -93,10 +93,10 @@ $('#back').on('click', () => {
   $('img').hover(		
     function () {
       $(this).css( 'scale','0.7');
-      $(this).parent.css('background-color', 'blue');
+      $(this).css('background-color', 'blue');
     }, 
     function () {
       $(this).css('scale','1');
-      $(this).parent.css('background-color', '');
+      $(this).css('background-color', '');
     }
   )
