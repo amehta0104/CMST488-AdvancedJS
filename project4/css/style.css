@@ -2,13 +2,15 @@
     --main-bg-white: #fff;
     --text-main:#333;
     --post-bg: rgb(209, 209, 209);
+    --gradient1:rgba(40, 127, 241, 0.479);
+    --gradient2: rgba(218, 40, 241, 0.479);
 }
 
 .home-post{
     display: block;
    background-color: var(--post-bg);
    box-shadow: rgba(0, 0, 0, 0.438) 2px 2px 5px;
-   border-color: rgba(90, 154, 228, 0.479);
+   border-color: rgba(40, 127, 241, 0.479);
    border-width: 2px;
    border-style: solid;
    padding: 1em;
