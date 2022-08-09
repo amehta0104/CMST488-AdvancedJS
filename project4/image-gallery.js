@@ -19,16 +19,16 @@ image.style.height = '500px';
 
 
 
-image.addEventListener('click', () => {
+// image.addEventListener('click', () => {
     
  
-selectedImage.src = 'gallery/Sanjeev_'+ (i) + '.JPG';
-selectedImage.alt = 'gg';
+// selectedImage.src = 'gallery/Sanjeev_'+ (i) + '.JPG';
+// selectedImage.alt = 'gg';
 
 
-image.classList.toggle('activeBorder' );
+// image.classList.toggle('activeBorder' );
 
-});
+// });
 
 console.log(image.src);
 gallery.appendChild(image);
