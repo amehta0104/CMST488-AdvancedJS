@@ -92,7 +92,7 @@ $('#back').on('click', () => {
 
   $('img').hover(		
     function () {
-      $(this).css('scale','0.7');
+      $(this).css('height','100%', 'width' , '100%');
     }, 
     function () {
       $(this).css('scale','1');
