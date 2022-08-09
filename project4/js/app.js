@@ -93,7 +93,7 @@ $('#back').on('click', () => {
   $('img').hover(		
     function () {
       $(this).css( 'scale','0.7');
-      $(this).css('background-color', 'blue');
+      $(this).css('border', '0px solid var(--gradient1)');
     }, 
     function () {
       $(this).css('scale','1');
