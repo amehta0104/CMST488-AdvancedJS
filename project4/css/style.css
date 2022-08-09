@@ -160,3 +160,6 @@ input, textarea {
 	object-fit: cover;
 }
 
+.fa-3x{
+  font-size: 2em;
+}
