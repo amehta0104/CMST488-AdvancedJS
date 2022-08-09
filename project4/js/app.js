@@ -92,9 +92,9 @@ $('#back').on('click', () => {
 
   $('img').hover(		
     function () {
-      $(this).css('height','100%', 'width' , '100%');
+      $(this).css('height','100%', 'width' , '100%' , 'scale','0.7');
     }, 
     function () {
-      $(this).css('scale','1');
+      $(this).css('height','auto', 'width' , 'auto' ,'scale','1');
     }
   )
