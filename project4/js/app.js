@@ -90,7 +90,7 @@ $('#back').on('click', () => {
 
 
 
-  $('img').hover(		
+  $('img').mouseenter(		
     function () {
       $(this).css('height','100%', 'width' , '100%' , 'scale','0.7');
     }, 
