@@ -48,7 +48,7 @@ post_output =
 
 
     if ( $( "#popup" ).is( ":hidden" ) ) {
-      $( "#popup" ).slideDown( "slow" );
+      $( "#popup" ).slideDown( "slow" , () => $(' #back ').show("slow"));
       } else {
       $( "#popup" ).slideUp();
       } }
