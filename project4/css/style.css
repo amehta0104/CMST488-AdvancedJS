@@ -96,7 +96,7 @@ img{
   object-fit:cover;
   width: 100%;
   transition: all 0.5s ease-in-out;
-  border: 15px solid var(--gradient1);
+
 
 }
 
