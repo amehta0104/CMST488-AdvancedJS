@@ -19,7 +19,7 @@ $.ajax({
 
     //val becomes the actual object
 //console.log( val)
-console.log( {i:val.id})
+console.log( typeOf(val.id))
 
 var listNum = list+i;
 var idy = "#"+listNum;
