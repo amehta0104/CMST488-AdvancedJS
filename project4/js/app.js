@@ -7,7 +7,7 @@
 $(document).ready(function () {
 $(popup).hide()
 
-$.ajax({
+$.getJSON({
     dataType: "JSON",
     url: 'js/projects.json',
     data: {},
