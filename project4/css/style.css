@@ -48,6 +48,10 @@ p{
     color: var(--text-main);
     line-height: 1.25;
 }
+
+p i {
+  color: white;
+}
 .round {
     border-radius: 50%;
   }
