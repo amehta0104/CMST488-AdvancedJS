@@ -32,7 +32,7 @@ $('#post-container').append(output)
 $('#post-container').on("click", idy, function(){
 
 $.ajax({
-  url:'js/projects.json',
+  url:"js/projects.json",
   method: 'GET',
   data: {ID:val.id},
   success: function(post){
