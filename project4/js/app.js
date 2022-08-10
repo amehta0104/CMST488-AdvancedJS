@@ -19,7 +19,7 @@ $.ajax({
 
     //val becomes the actual object
 //console.log( val)
-console.log( JSON.stringify(val.id))
+console.log( val.id)
 
 var listNum = list+i;
 var idy = "#"+listNum;
@@ -34,7 +34,7 @@ $('#post-container').on("click", idy, function(){
 $.ajax({
   url:"js/projects.json",
   method: 'GET',
-  data: {"ID":val.id},
+  data: {"ID":$(val.id)},
   success: function(post){
     console.log(post[i].post_title)
 post_output = 
