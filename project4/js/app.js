@@ -50,8 +50,7 @@ post_output =
 
     if ( $( "#popup" ).is( ":hidden" ) ) {
 
-      //i think i figured out to use async?? this just popped in my head and it works 
-      //flawlessy!!! I am so happy
+      
       $( "#popup" ).slideDown( "slow" , () => $(' #back ').show("slow"));
       //
       //
