@@ -19,7 +19,7 @@ $.ajax({
 
     //val becomes the actual object
 //console.log( val)
-console.log( val.id)
+console.log( val.ID)
 let gg = 0;
 var listNum = list+i;
 var idy = "#"+listNum;
@@ -28,13 +28,13 @@ var idy = "#"+listNum;
 output =  '  <div id=' + listNum + ' class="home-post container p-5">  <h1>' + val.post_title + ' </h1> <p>' + val.post_content.substring(1,300) +' </p>  </div> '
 //console.log(output)
 $('#post-container').append(output)
-gg=val.id
+
 $('#post-container').on("click", idy, function(){
 
 $.ajax({
   url:"js/projects.json",
   method: 'GET',
-  data: {"ID":gg},
+  data: {"ID":val.ID},
   success: function(post){
     console.log(post[i].post_title)
 post_output = 
