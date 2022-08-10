@@ -43,7 +43,7 @@ post_output =
 
 
 
-    $('#full-post').html(post_output)
+    $('#full-post').html( post_output ) 
 
 
 
